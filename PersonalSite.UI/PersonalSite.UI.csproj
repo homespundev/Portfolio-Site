@@ -178,35 +178,47 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="_archive\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="_archive\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="_archive\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\aubrey-min.jpg" />
+    <Content Include="Content\Images\Captureatm-min.PNG" />
+    <Content Include="Content\Images\Captureknitting-min.PNG" />
+    <Content Include="Content\Images\carol-min.jpg" />
+    <Content Include="Content\Images\connor-min.jpg" />
+    <Content Include="Content\Images\david-min.jpg" />
+    <Content Include="Content\Images\dungeoncapture-min.PNG" />
+    <Content Include="Content\Images\dungeoncapture.PNG" />
+    <Content Include="Content\Images\HCLogo943x372.png" />
+    <Content Include="Content\Images\HD1L1410by314-min.png" />
+    <Content Include="Content\Images\HD1L353by79-min.png" />
+    <Content Include="Content\Images\HD1L705by157-min.png" />
+    <Content Include="Content\Images\jeremy-min.jpg" />
+    <Content Include="Content\Images\linkedinphoto %282%29-min.jpg" />
+    <Content Include="Content\Images\monte-min.jpg" />
+    <Content Include="Content\Images\phil-min.jpg" />
+    <Content Include="Content\Images\phillip-min.jpg" />
+    <Content Include="Content\Images\robert-min.jpg" />
+    <Content Include="Content\Images\thad-min.jpg" />
+    <Content Include="Content\Images\tristan-min.jpg" />
+    <Content Include="Content\Images\wooden-planks-2503422_1920-min.jpg" />
+    <Content Include="Content\Scripts\bootstrap.min.js" />
+    <Content Include="Content\Scripts\jquery\jquery.js" />
+    <Content Include="Content\Scripts\jquery\jquery.min.js" />
+    <Content Include="Content\Scripts\popper\popper.js" />
+    <Content Include="Content\Scripts\popper\popper.min.js" />
+    <Content Include="Content\Styles\bootstrap.min.css" />
+    <Content Include="Content\Styles\business-casual.css" />
+    <Content Include="Content\Styles\custom.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="_archive\contact.html" />
-    <Content Include="_archive\index.html" />
-    <Content Include="_archive\links.html" />
-    <Content Include="_archive\projects.html" />
-    <Content Include="_archive\PSv1.csproj" />
-    <Content Include="_archive\PSv1.csproj.user" />
-    <Content Include="_archive\resume.html" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Home\contact.html" />
+    <Content Include="Views\Home\index.html" />
+    <Content Include="Views\Home\links.html" />
+    <Content Include="Views\Home\projects.html" />
+    <Content Include="Views\Home\resume.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -218,9 +230,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -241,32 +250,97 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="_archive\contact.html" />
+    <Content Include="_archive\css\business-casual.css" />
+    <Content Include="_archive\css\custom.css" />
+    <Content Include="_archive\img\aubrey-min.jpg" />
+    <Content Include="_archive\img\Captureatm-min.PNG" />
+    <Content Include="_archive\img\Captureknitting-min.PNG" />
+    <Content Include="_archive\img\carol-min.jpg" />
+    <Content Include="_archive\img\connor-min.jpg" />
+    <Content Include="_archive\img\david-min.jpg" />
+    <Content Include="_archive\img\dungeoncapture-min.PNG" />
+    <Content Include="_archive\img\dungeoncapture.PNG" />
+    <Content Include="_archive\img\HCLogo943x372.png" />
+    <Content Include="_archive\img\HD1L1410by314-min.png" />
+    <Content Include="_archive\img\HD1L353by79-min.png" />
+    <Content Include="_archive\img\HD1L705by157-min.png" />
+    <Content Include="_archive\img\jeremy-min.jpg" />
+    <Content Include="_archive\img\linkedinphoto %282%29-min.jpg" />
+    <Content Include="_archive\img\monte-min.jpg" />
+    <Content Include="_archive\img\phil-min.jpg" />
+    <Content Include="_archive\img\phillip-min.jpg" />
+    <Content Include="_archive\img\robert-min.jpg" />
+    <Content Include="_archive\img\thad-min.jpg" />
+    <Content Include="_archive\img\tristan-min.jpg" />
+    <Content Include="_archive\img\wooden-planks-2503422_1920-min.jpg" />
+    <Content Include="_archive\index.html" />
+    <Content Include="Content\Scripts\custom.js" />
+    <Content Include="Content\Scripts\customjQuery.js" />
+    <Content Include="_archive\links.html" />
+    <Content Include="_archive\obj\Debug\PSv1.csproj.FileListAbsolute.txt" />
+    <Content Include="_archive\obj\Debug\PSv1.dll" />
+    <Content Include="_archive\obj\Debug\PSv1.pdb" />
     <Content Include="_archive\package.json" />
     <Content Include="_archive\packages.config" />
+    <Content Include="_archive\projects.html" />
+    <Content Include="_archive\PSv1.csproj" />
+    <Content Include="_archive\PSv1.csproj.user" />
+    <Content Include="_archive\resume.html" />
+    <Content Include="_archive\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="_archive\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="_archive\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="_archive\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="_archive\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="_archive\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="_archive\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="_archive\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="_archive\vendor\jquery\jquery.js" />
+    <Content Include="_archive\vendor\jquery\jquery.min.js" />
+    <Content Include="_archive\vendor\popper\popper.js" />
+    <Content Include="_archive\vendor\popper\popper.min.js" />
     <Content Include="_archive\Web.config" />
+    <Content Include="_archive\_archive\about.html" />
+    <Content Include="_archive\_archive\blog.html" />
+    <Content Include="_archive\_archive\contact.html" />
+    <Content Include="_archive\_archive\css\business-casual.css" />
+    <Content Include="_archive\_archive\img\bg.jpg" />
+    <Content Include="_archive\_archive\img\intro-pic.jpg" />
+    <Content Include="_archive\_archive\img\slide-1.jpg" />
+    <Content Include="_archive\_archive\img\slide-2.jpg" />
+    <Content Include="_archive\_archive\img\slide-3.jpg" />
+    <Content Include="_archive\_archive\index.html" />
+    <Content Include="_archive\_archive\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="_archive\_archive\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="_archive\_archive\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="_archive\_archive\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="_archive\_archive\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="_archive\_archive\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="_archive\_archive\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="_archive\_archive\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="_archive\_archive\vendor\jquery\jquery.js" />
+    <Content Include="_archive\_archive\vendor\jquery\jquery.min.js" />
+    <Content Include="_archive\_archive\vendor\popper\popper.js" />
+    <Content Include="_archive\_archive\vendor\popper\popper.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="_archive\js\" />
+    <Folder Include="_archive\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="_archive\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="_archive\obj\Debug\PSv1.csprojResolveAssemblyReference.cache" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="_archive\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="_archive\Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="_archive\css\" />
-    <Folder Include="_archive\img\" />
-    <Folder Include="_archive\js\" />
-    <Folder Include="_archive\obj\" />
-    <Folder Include="_archive\vendor\" />
-    <Folder Include="_archive\_archive\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="_archive\_archive\package.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

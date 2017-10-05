@@ -1,0 +1,49 @@
+﻿#headerlogo{
+    text-align:center;
+    margin-bottom:2%;
+    
+}
+#headerlogo img{
+    width:65%;
+    background-color:rgba(238, 235, 235,0.5);
+    padding:1%;
+    border-radius:20px;
+}
+/*#minilogo{
+    display:inline-block;
+    
+}*/
+.tagline-lower{
+    padding-top:10px;
+}
+div .card {
+    padding:10px;
+}
+div .col-md-4{
+    padding:15px;
+}
+div .col-lg-6 img{
+    padding-bottom: 10%;
+}
+body {
+    background-image: url('../Images/wooden-planks-2503422_1920-min.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.img-fluid{
+    display:inline-block;
+}
+
+.navbar-brand{
+    margin-right: 0;
+}
+.navbar-nav{
+    margin-left:auto;
+    text-align:center;
+}
+#nav{
+    margin:0, auto;
+}
