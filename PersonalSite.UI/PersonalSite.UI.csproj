@@ -334,6 +334,7 @@
     <Content Include="_archive\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="_archive\obj\Debug\PSv1.csprojResolveAssemblyReference.cache" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
     <None Include="_archive\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

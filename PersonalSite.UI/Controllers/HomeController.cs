@@ -15,9 +15,7 @@ namespace PersonalSite.UI.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+           return View();
         }
 
         public ActionResult Projects()
