@@ -64,6 +64,6 @@ C:\Users\Student\Documents\Visual Studio 2015\Projects\Personal\PersonalSite\Per
 C:\Users\Student\Documents\Visual Studio 2015\Projects\Personal\PersonalSite\PersonalSite.UI\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Student\Documents\Visual Studio 2015\Projects\Personal\PersonalSite\PersonalSite.UI\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Student\Documents\Visual Studio 2015\Projects\Personal\PersonalSite\PersonalSite.UI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Student\Documents\Visual Studio 2015\Projects\Personal\PersonalSite\PersonalSite.UI\obj\Debug\PersonalSite.UI.csprojResolveAssemblyReference.cache
 C:\Users\Student\Documents\Visual Studio 2015\Projects\Personal\PersonalSite\PersonalSite.UI\obj\Debug\PersonalSite.UI.dll
 C:\Users\Student\Documents\Visual Studio 2015\Projects\Personal\PersonalSite\PersonalSite.UI\obj\Debug\PersonalSite.UI.pdb
+C:\Users\Student\Documents\Visual Studio 2015\Projects\Personal\PersonalSite\PersonalSite.UI\obj\Debug\PersonalSite.UI.csprojResolveAssemblyReference.cache

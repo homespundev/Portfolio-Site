@@ -1,0 +1,99 @@
+﻿@model PersonalSite.UI.Models.ContactViewModel
+@{
+    ViewBag.Title = "ContactConfirmation";
+}
+
+
+<div class="bg-faded p-4 my-4">
+    <hr class="divider">
+    <h2 class="text-center text-lg text-uppercase my-0">
+        Contact
+        <strong>Mary Frey</strong>
+    </h2>
+    <hr class="divider">
+    <div class="row">
+
+        <div class="col-md-4 text-center">
+
+            <a href="tel:+01.816.838.0297">
+                <img class="mb-4" src="~/Content/Images/Phone-icon.png" />
+                <h5 class="mb-0">Call</h5>
+            </a>
+        </div>
+        <div class="col-md-4 text-center">
+
+            <a href="mailto:mfrey2011@gmail.com">
+                <img src="~/Content/Images/googlemail-128.png" />
+
+                <h5 class="mb-0">Message</h5>
+            </a>
+        </div>
+        <div class="col-md-4 text-center">
+
+            <a href="https://www.linkedin.com/in/maryafrey/">
+                <img src="~/Content/Images/linkedin-icon128.png" />
+                <h5 class="mb-0">Connect</h5>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="bg-faded p-4 my-4">
+    <hr class="divider">
+    <h2 class="text-center text-lg text-uppercase my-0">
+        Contact
+        <strong>Form</strong>
+    </h2>
+    <hr class="divider">
+    <div class="col-sm-8">
+        @* Response Message *@
+        <h2>Thank you for contacting us, @Model.Name! We will get back to you as soon as possible.</h2>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="contact-form">
+                <div class="status alert alert-success" style="display: none"></div>
+                @*                    <form id="main-contact-form" class="contact-form row" name="contact-form" method="get" action="#" onsubmit="validateForm()">*@
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="row" id="con1">
+                        <div class="form-group col-md-6">
+                            @Html.TextBoxFor(x => x.Name, new { @class = "form-control", @placeholder = "Name" })
+                            @Html.ValidationMessageFor(x => x.Name)
+                        </div>
+                        <div class="form-group col-md-6">
+                            @Html.TextBoxFor(x => x.Email, new { @class = "form-control", @placeholder = "Email" })
+                            @Html.ValidationMessageFor(x => x.Email)
+
+                        </div>
+                    </div>
+                        <div class="form-group col-md-12">
+                            @Html.TextBoxFor(x => x.Subject, new { @class = "form-control", @placeholder = "Subject" })
+                            @Html.ValidationMessageFor(x => x.Subject)
+
+                        </div>
+                        <div class="form-group col-md-12">
+                            @Html.TextAreaFor(x => x.Message, new { @class = "form-control", @placeholder = "Message" })
+                            @Html.ValidationMessageFor(x => x.Message)
+
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input type="submit" name="submit" class="btn btn-primary pull-right" value="Submit">
+
+                        </div>
+                }
+                @*</form>*@
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+</div><!--/#contact-page-->
+@section scripts{
+    <script src="~/Content/Scripts/formvalidation.js"></script>
+}
+
+
+
+
