@@ -15,14 +15,21 @@ div .col-md-4{
 div .col-lg-6 img{
     padding-bottom: 10%;
 }
+html, body{
+    height: 100%;
+}
 body {
     background-image: url('../Images/wooden-planks-2503422_1920-min.jpg');
     background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
-
+.body-content{
+    flex: 1 0 auto;
+}
 .img-fluid{
     display:inline-block;
 }
@@ -92,6 +99,7 @@ body {
 .res1{
     padding-left: 3em!important;
     padding-right: 3em!important;
+    padding-bottom: 3em!important;
 }
 #con1{
     padding-left: 1.5%;
